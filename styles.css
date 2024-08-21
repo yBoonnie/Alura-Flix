@@ -1,0 +1,12 @@
+body{
+    color:blueviolet;
+    background: purple;
+    margin:0px;
+}
+header{
+    border-bottom: solid 2px black;
+padding: 20px;
+font-size: 32px;
+color: black;
+
+}
