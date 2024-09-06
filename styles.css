@@ -1,6 +1,7 @@
 body{
     color:blueviolet;
     background: purple;
+    font-family: "SUSE", sans-serif;
     margin:0px;
 }
 header{
@@ -10,3 +11,49 @@ font-size: 32px;
 color: black;
 
 }
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .chamada-texto {
+    margin-right: 5%;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  img{
+     height: 200px;
+  }
+  .categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  .categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+  .categoria-videos img{
+    opacity: 1.0px;
+    height: 200px;
+  }
+  
+  .categoria-videos img:hover{
+    opacity: 1.0px;
+    border: 1px solid white;
+  }
+
+  .categoria h2{
+    color: blue;
+  }
